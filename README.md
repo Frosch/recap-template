@@ -21,7 +21,7 @@ For this, you have to install [Pandoc](https://pandoc.org/) and [Visual Studio C
 I'm using vscode to write the recaps, mainly because there are a lot of great extensions which really ease working with markdown. The packages I'm currently using:
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): Great tools, commands and shortcuts around writing markdown.
-- [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image): Makes adding images to your recap a breeze. You can easily add paste images directly from the clipboard into the markdown and give it a title/caption. The image will automatically put in a specified directory
+- [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image): Makes adding images to your recap a breeze. You can easily add paste images directly from the clipboard into the markdown and give it a title/caption. The image will automatically be put in a specified directory.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) because, well... linting your code is always a good idea :)
 
 Also, I have added a custom task for compiling all `.md`-files under the `src`-directory that can be triggered with `ctrl + shift + b`. This will just wildcard the filenames, so simply order your markdown files by preceding them with the section-number. Also, this will generate a TOC and print the document in the two-column layout, as I personally found this easier to use for learning. However, this command can easily be adjusted.
